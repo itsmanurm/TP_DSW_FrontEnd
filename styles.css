@@ -1,0 +1,62 @@
+/* styles.css */
+
+/* Este es un comentario en CSS que describe el propósito del archivo. */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el cuerpo de la página */
+/* Cambia la fuente del texto a Arial o una fuente genérica sans-serif */
+/* Establece márgenes y relleno a 0 para eliminar espacios alrededor del cuerpo */
+
+header, nav, main, footer {
+    padding: 20px;
+}
+
+/* Estilos para los elementos de encabezado, navegación, contenido principal y pie de página */
+/* Agrega un relleno de 20px a todos estos elementos para crear un espacio alrededor */
+
+header {
+    background-color: #db7a7ad7;
+    color: white;
+}
+
+/* Estilos para el encabezado */
+/* Establece el color de fondo a gris oscuro (#333) */
+/* Establece el color del texto a blanco */
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    background-color: #f18383;
+}
+
+/* Estilos para la lista no ordenada dentro de la navegación */
+/* Elimina los marcadores de lista */
+/* Establece el relleno a 0 para la lista */
+/* Establece la propiedad 'display' a 'flex' para que los elementos de la lista se muestren en una fila */
+/* Establece el color de fondo a un tono más oscuro de gris (#444) */
+
+nav li {
+    margin-right: 20px;
+}
+
+/* Estilos para los elementos de lista en la navegación */
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    text-decoration:  none;
+    color: aqua;
+}
+
+
+
+
